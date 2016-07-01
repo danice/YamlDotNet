@@ -19,6 +19,8 @@ packages
 packages/*
 !packages/repositories.config
 .vscode
+*.lock.json
+.vs/*
 
 README.html
 

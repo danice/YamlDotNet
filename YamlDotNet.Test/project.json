@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "FakeItEasy": "1.25.3",
+    "FluentAssertions": "4.0.0",
+    "NETStandard.Library": "1.6.0",
+    "xunit": "2.1.0",
+    "YamlDotNet": "1.0.0-*"
+  },
+  "buildOptions": {
+    "copyToOutput": {
+      "include": [ "xunit.runner.json" ]
+    },
+    "embed": [
+      "files/*"
+    ]
+
+  },
+  "frameworks": {
+    "net461": {
+      "imports": "dnxcore50, netstandardapp1.6",
+      "frameworkAssemblies": {
+        "System.Drawing": "4.0.0.0"
+      }
+    }
+  },
+  "testRunner": "xunit"
+}
